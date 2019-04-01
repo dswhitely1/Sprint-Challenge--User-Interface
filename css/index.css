@@ -337,3 +337,41 @@ footer nav a {
 .about-page footer {
 	margin-top: 41px;
 }
+.blog-page .top-content img {
+	width: 800px;
+	height: 100%;
+}
+.blog-page .top-content .text-container {
+	margin: 0 2% 20px;
+	width: 96%;
+}
+.blog-page .middle-content img {
+	width: 48%;
+	height: 100%;
+}
+
+.blog-page .middle-content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.blog-page .middle-content h2 {
+	padding: 0;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+.blog-page .middle-content p {
+	margin-bottom: 5%;
+}
+.blog-page .middle-content .text-container {
+	width: 48%;
+}
+
+.blog-page h2 {
+	font-weight: 700;
+}
+
+.blog-page .bottom-content {
+	flex-direction: column;
+}
