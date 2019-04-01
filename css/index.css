@@ -354,6 +354,7 @@ footer nav a {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	margin: 0 2% 20px;
 }
 .blog-page .middle-content h2 {
 	padding: 0;
