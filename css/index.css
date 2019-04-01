@@ -376,3 +376,12 @@ footer nav a {
 .blog-page .bottom-content {
 	flex-direction: column;
 }
+
+.contact-page .contact-form {
+	margin: 30px 2%;
+}
+
+.contact-page .contact-form h2 {
+	font-weight: 700;
+	text-align: center;
+}
