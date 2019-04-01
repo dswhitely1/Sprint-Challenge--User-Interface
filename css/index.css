@@ -128,6 +128,11 @@ table {
 	border-spacing: 0;
 }
 
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -173,6 +178,9 @@ p {
 .header nav a {
 	font-size: 14px;
 	text-decoration: none;
+}
+nav a:hover {
+	text-decoration: underline;
 }
 .top-content {
 	display: flex;
@@ -228,6 +236,10 @@ p {
 	font-size: 96%;
 	background-color: white;
 	font-weight: 600;
+}
+.about-page .middle-content button:hover {
+	background-color: black;
+	color: white;
 }
 .about-page .middle-content .text-container img {
 	margin-bottom: 10px;
